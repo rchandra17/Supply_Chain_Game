@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconductor Supply Chain Disruption Simulation And Diagnostic Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 700px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header h2 {
+            color: #667eea;
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+        
+        .story-content {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+        
+        .story-content p {
+            margin-bottom: 15px;
+        }
+        
+        .story-content strong {
+            color: #333;
+        }
+        
+        .story-content em {
+            color: #666;
+        }
+        
+        .choices {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .choice-btn {
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Georgia', serif;
+            text-align: left;
+        }
+        
+        .choice-btn:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .choice-btn:active {
+            transform: translateX(8px);
+        }
+        
+        .home-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .home-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        
+        .home-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .page-counter {
+            text-align: center;
+            color: #aaa;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Semiconductor Supply Chain Disruption Simulation And Diagnostic Tool</h1>
+            <h2></h2>
+        </div>
+        
+        <div class="story-content">
+            <p>Your organization has detected a semiconductor supply chain disruption. What is the primary nature of the problem?</p>
+        </div>
+        
+        <div class="choices">
+            <button class="choice-btn" onclick="window.location.href='page2.html'">Input Shortage</button>
+            <button class="choice-btn" onclick="window.location.href='page3.html'">Packaging or Manufacturing Bottleneck</button>
+            <button class="choice-btn" onclick="window.location.href='page4.html'">Logistics Issue</button>
+            <button class="choice-btn" onclick="window.location.href='page5.html'">Regulatory or Geopolitical Issue</button>
+        </div>
+        
+        <div class="home-link">
+                        <a href="index.html">← Back to Start</a>
+        </div>
+        
+        <div class="page-counter">
+            Page 1
+        </div>
+    </div>
+</body>
+</html>
